@@ -6,3 +6,5 @@ Balatro*.exe
 balatro*.apk
 dist/
 Balatro/
+.venv/
+.vscode/
