@@ -1,0 +1,14 @@
+description = "Disable pixel art smoothing by default"
+authors = ["SBence"]
+supported_platforms = ["android", "ios"]
+
+[[patch_lists]]
+  version = 0
+  # supported_game_versions = ALL
+  [[patch_lists.patch_files]]
+    target_file = "globals.lua"
+    [[patch_lists.patch_files.patches]]
+      search_string = "texture_scaling = 2"
+      patch_content = """
+            texture_scaling = 1,
+"""
