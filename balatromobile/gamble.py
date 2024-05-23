@@ -87,7 +87,7 @@ def parse_args() -> Namespace:
     android.add_argument("--output", "-o", required=False, help="Output path for apk (default: balatro-GAME_VERSION.apk)")
     android.add_argument("--patches", "-p", help="Comma-separated list of patches to apply (default: {})".format(DEFAULT_PATCHES))
     android.add_argument("--skip-sign", "-s", action="store_true", help="Skip signing the apk file with Uber Apk Signer (default: %(default)s)")
-    android.add_argument("--display-name", default="Balatro Mobile (unofficial)", help="Change application display name (default: %(default)s)")
+    android.add_argument("--display-name", default="Balatro", help="Change application display name (default: %(default)s)")
     android.add_argument("--package-name", default="dev.bootkit.balatro", help="Change application package name (default: %(default)s)")
     android.add_argument("--force", "-f", action="store_true", help="Force apply patches even if not compatible with supplied Balatro.exe version (default: %(default)s)")
     # list-patches

@@ -98,7 +98,7 @@ options:
                         max-volume)
   --skip-sign, -s       Skip signing the apk file with Uber Apk Signer (default: False)
   --display-name DISPLAY_NAME
-                        Change application display name (default: Balatro Mobile (unofficial))
+                        Change application display name (default: Balatro)
   --package-name PACKAGE_NAME
                         Change application package name (default: dev.bootkit.balatro)
   --force, -f           Force apply patches even if not compatible with supplied Balatro.exe version (default: False)
